@@ -17,7 +17,7 @@ def send_message():
             if len(original_image) > 0:
                 image_pattern = '^[1-9]*[a-zA-Z\s]+\.jpg$'
                 if re.match(image_pattern, original_image) != None:
-                    if original_image == "mmu.jpg":
+                    if original_image == "NIKE.jpg":
                         while True:
                             output_path = raw_input(colored("Enter the name of output image:", "yellow"))
                             if len(output_path) > 0:
